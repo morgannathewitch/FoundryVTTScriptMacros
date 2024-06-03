@@ -18,7 +18,7 @@ async function main(){
         if (torch.system.quantity < 1){
             torch.delete();
         }
-        await token.document.update({"light.dim": 6, "light.bright": 0, "light.color": "#fba732"});
+        await token.document.update({"light.dim": 40, "light.bright": 20, "light.color": "#fba732"});
     }
     else {
         await token.document.update({"light.dim": 0, "light.bright": 0, "light.color": "#000000"});
